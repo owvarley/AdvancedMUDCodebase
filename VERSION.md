@@ -1,7 +1,7 @@
 #	AMC v0.04.1 (17/12/2005) 
 ## VERSION CTRL
 
-######MAJOR CHANGES
+*MAJOR CHANGES*
 * [17/12/2005] - {OWV} Rewrite of Component and Module code to bring inline with new Design Concept TruShip [CL 1.1]
 * [17/12/2005] - {OWV} Retooling of Shape Command to allow Creation of Ships from Templates [CL 1.2]
 * [17/12/2005] - {OWV} Ship States to allow for Launching, Landing, Flying, Hovering on Repulsors
@@ -34,14 +34,14 @@
 * [07/03/2006] - {OWV} Implemented a message when the MUD crashes and wrote a Startup bat to run AMC
 * [28/03/2006] - {OWV} Implemented the Skill Manager (ePACS)
 
-###BUGSFIXES
+*BUGSFIXES*
 * [17/12/2005] - {OWV} Fixed problem with Areas being loaded before Worlds were initialised
 * [18/12/2005] - {OWV} Fixed minor problems with the Area files being saved/loaded incorrectly
 * [19/12/2005] - {OWV} Fixed menu issues with crashes see (Buglist.txt MCB 1.1 and MCB 1.2)
 * [09/03/2006] - {OWV} Fixed problem with objects be in your fore but getting further away
 * [15/03/2006] - {OWV} Fixed bug with colour codes in MudCore (Buglist.txt MCB 1.5)
 
-#MINOR CHANGES
+*MINOR CHANGES*
 * [17/12/2005] - {OWV} Added #TB to allow Tabs to be entered into text blocks
 * [17/12/2005] - {OWV} Renamed help to Commands
 * [17/12/2005] - {OWV} Added areas Command to list all areas, also added Author field to areas
