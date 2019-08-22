@@ -1,7 +1,7 @@
 #	AMC v0.04.1 (17/12/2005) 
 ## VERSION CTRL
 
-###MAJOR CHANGES
+######MAJOR CHANGES
 * [17/12/2005] - {OWV} Rewrite of Component and Module code to bring inline with new Design Concept TruShip [CL 1.1]
 * [17/12/2005] - {OWV} Retooling of Shape Command to allow Creation of Ships from Templates [CL 1.2]
 * [17/12/2005] - {OWV} Ship States to allow for Launching, Landing, Flying, Hovering on Repulsors
