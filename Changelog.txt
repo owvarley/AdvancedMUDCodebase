@@ -1,0 +1,42 @@
+    	:: AMC v0.3 b ::
+	      23/12/2005
+	      CHANGE LOG
+ [A justification for Change]
+
+CL 1.1 :: The old Component system was reviewed by Yaivenov (Billy Puhg, USN) and based upon his comments and
+          modern Battleship structure a new system was devised. This system was considered due to its great
+		  increase in realism and flexibility for both the players and the administration. It also provided a
+		  highly dynamic system which could be expanded or change easily allowing AMC to be modified to fit
+		  an Administrators requirements.
+
+CL 1.2 :: With the new Structure (TruShip) the old Shape command was removed and retooled. It reappeared as the
+		  Design command which provided a very complex interface for designing ships. For some operations it required
+		  7 values to get entered by the player, this type of interface was not ideal and hence it was re-written,
+		  see CL 1.3
+
+CL 1.3 :: The original Design command was bulky and very difficult to use properly. A new system was devised by
+          implementing an entirely separate command parser for Design commands. This not only allowed each command
+		  to be drastically shorted (The maximum number of values entered was 2, a big change from 7!) but also
+		  a prompt could be displayed to aid the visualisation during Ship Design.
+
+CL 2.1 :: AMC started using the 2.3 MUDCore codebase as it was a lot neater and contained less game specific 
+          implementation compared to the 2.3.1 Release. However, 2.3.1 included a very neat Attribute class,
+		  this was ported in to handle attributes in AMC. If it ain't broke, don't fix it.
+
+CL 2.2 :: The idea behind adding STAFF to the Player types was to allow a three tier structure to STAFF.
+          STAFF, ASSITANT and ADMINISTRATOR. A large deal of research has been placed into Communication
+		  within Companies, the best systems were always the most simplistic ones which allowed for a clear
+		  chain of communication. Having three tiers the chain is obvious, a STAFF member passes information 
+		  to an ASSISTANT who in turn can pass it on to an ADMINISTRATOR. The area of staff structure and
+		  further justification can be found in the Design Documentation for AMC. See Staff Structure.doc
+
+CL 2.3 :: The old system for CShape involved storing the exact same data as a HullCube, this was obviously
+          redundant and hence was changed. Now CShape provides an easy way to access a summary of information
+		  relating to the Shape of the object such as Height, Length, Width, Size, etc.
+
+CL 2.4 :: The DescribeTo function shows a player a room within an area. This area has to have been added to the
+		  GameWorld object. Our Template areas are not added to the GameWorld object and hence cannot be viewed
+		  without modifying DescribeTo, the justification for not adding Template Areas to the GameWorld object 
+		  is that for encapsulation. The only way to access and edit the area is through the use of the
+		  Design interpreter. This was changed back to its original form as all area commands require the area
+		  to be loaded into the GameWorld.
