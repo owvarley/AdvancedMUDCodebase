@@ -1,9 +1,9 @@
-	:: AMC v0.04.1 ::
-	   17/12/2005
-	  VERSION CTRL
-[CL <#>.<#> :: See ChangeLog.txt for detail]
+#	:: AMC v0.04.1 ::
+#	   17/12/2005
+#	  VERSION CTRL
+#[CL <#>.<#> :: See ChangeLog.txt for detail]
 
->> MAJOR CHANGES
+#>> MAJOR CHANGES
 [17/12/2005] - {OWV} Rewrite of Component and Module code to bring inline with new Design Concept TruShip [CL 1.1]
 [17/12/2005] - {OWV} Retooling of Shape Command to allow Creation of Ships from Templates [CL 1.2]
 [17/12/2005] - {OWV} Ship States to allow for Launching, Landing, Flying, Hovering on Repulsors
@@ -43,7 +43,7 @@
 [09/03/2006] - {OWV} Fixed problem with objects be in your fore but getting further away
 [15/03/2006] - {OWV} Fixed bug with colour codes in MudCore (Buglist.txt MCB 1.5)
 
->> MINOR CHANGES
+#>> MINOR CHANGES
 [17/12/2005] - {OWV} Added #TB to allow Tabs to be entered into text blocks
 [17/12/2005] - {OWV} Renamed help to Commands
 [17/12/2005] - {OWV} Added areas Command to list all areas, also added Author field to areas
